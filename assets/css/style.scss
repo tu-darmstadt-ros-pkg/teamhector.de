@@ -6,7 +6,7 @@
 $max-content-width: 1024px;
 
 body {
-  background-color: #000000;
+  background-color: #212121;
 }
 
 .inner {
@@ -16,7 +16,7 @@ body {
 }
 
 .outer {
-  background: #000000 !important;
+  background: none !important;
 }
 
 img {
@@ -60,6 +60,7 @@ img {
 #navigation_wrap {
   .inner {
     height: 3rem;
+    background: #000000;
   }
   ul {
     display: flex;
