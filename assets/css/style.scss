@@ -1,0 +1,143 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$max-content-width: 1024px;
+
+body {
+  background-color: #000000;
+}
+
+.inner {
+  max-width: $max-content-width;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.outer {
+  background: #000000 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+#header_wrap {
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/assets/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+  }
+
+  .th-logo {
+    margin: 2rem;
+    max-width: 60%;
+  }
+
+  .logo {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    padding: 0;
+  }
+
+  .right {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+#navigation_wrap {
+  .inner {
+    height: 3rem;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    height: 100%;
+
+
+    a {
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    a:hover {
+      background-color: #ffffff22;
+    }
+  }
+}
+
+#main_content_wrap {
+  border-top: 0;
+
+  #main_content {
+    padding-top: 0;
+  }
+
+  .inner {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+
+    .content {
+      padding: 20px;
+      flex: 1 0 100%;
+      box-sizing: border-box;
+    }
+
+    .sidebar {
+      flex: 1 0 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #eee;
+      text-align: center;
+
+      img {
+        margin: 5px 10px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+#footer_wrap {
+  background: #000000;
+  color: #aaaaaa;
+
+  .inner {
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #main_content_wrap {
+    .inner {
+      .content {
+        flex-basis: 75%;
+      }
+      .sidebar {
+        flex-basis: 25%;
+      }
+    }
+  }
+}
