@@ -27,6 +27,7 @@ img {
   .inner {
     display: flex;
     justify-content: space-between;
+    background-color: #000000;
     background-image: url("{{ '/assets/header.png' | relative_url }}");
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,6 +38,10 @@ img {
   .th-logo {
     margin: 2rem;
     max-width: 60%;
+  }
+
+  .sim-logo {
+    margin-right: 2rem;
   }
 
   .logo {
