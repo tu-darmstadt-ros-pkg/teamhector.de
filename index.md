@@ -16,7 +16,7 @@ Team Hector emerged from the former world-champion robot soccer Team Darmstadt D
 
 Team Hector is always looking for new members. If you are interested in working with us, take a look at our Join us page!
 
-![Press Photo of Team Hector with former German chancellor Angela Merkel.](assets/images/team_hector_group_picture_small.jpg)  
+![Press Photo of Team Hector with former German chancellor Angela Merkel.](/assets/images/team_hector_group_picture_small.jpg)  
 **German chancellor Angela Merkel visiting Team Hector at TU Darmstadt (2018).**
 
 Some of the team's achievements are:
