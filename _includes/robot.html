@@ -1,0 +1,70 @@
+{% assign robot = site.robots | find: "name", include.name %}
+<h2>
+  {{ robot.name }}
+  {% if robot.active == false %}
+  ({{ robot.firstUsed }} - {{ robot.lastUsed }})
+  {% endif %}
+  {% include anchor.html id=robot.name %}</h2>
+<div class="d-flex">
+  <img src="{{ base.url }}/assets/images/robots/{{ robot.image }}" class="col-12 col-md-7 mr-md-2"/>
+
+  <table class="col-12 col-md-5 ml-md-2">
+    <thead>
+      <tr>
+        <th colspan="2">
+          Specifications
+        </th>
+      </tr>
+    </thead>
+    
+    {% if robot.weight %}
+    <tr>
+      <td>Weight</td>
+      <td>{{ robot.weight }}</td>
+    </tr>
+    {% endif %}
+
+    {% if robot.dimensions %}
+    <tr>
+      <td>Dimensions <span class="text-nobreak">(L x W x H)</span></td>
+      <td>{{ robot.dimensions }}</td>
+    </tr>
+    {% endif %}
+
+    {% if robot.flipperDoF %}
+    <tr>
+      <td>Flipper DoF</td>
+      <td>{{ robot.flipperDoF }}</td>
+    </tr>
+    {% endif %}
+
+    {% if robot.manipulatorDoF %}
+    <tr>
+      <td>Manipulator DoF</td>
+      <td>{{ robot.manipulatorDoF }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if robot.lidar %}
+    <tr>
+      <td>LiDAR</td>
+      <td>{{ robot.lidar }}</td>
+    </tr>
+    {% endif %}
+    
+    {% if robot.cameras %}
+    <tr>
+      <td>Cameras</td>
+      <td>{{ robot.cameras }}</td>
+    </tr>
+    {% endif %}
+
+    {% if robot.additionalSensors %}
+    <tr>
+      <td>Additional Sensors</td>
+      <td>{{ robot.additionalSensors }}</td>
+    </tr>
+    {% endif %}
+  </table>
+</div>
+<p>{{ robot.content }}</p>

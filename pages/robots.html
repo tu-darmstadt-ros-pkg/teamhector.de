@@ -1,0 +1,22 @@
+---
+layout: page
+title: "Robots - Team Hector"
+permalink: /robots
+---
+{% assign activeRobots = site.robots | where:"active","true" | sort: "firstUsed", "first" %}
+{% assign alumniRobots = site.robots | where:"active","false" | sort: "lastUsed", "last" %}
+
+<h1>Active Robots</h1>
+<p>The following robots are currently used by Team Hector.</p>
+{% for robot in activeRobots reversed %}
+  {% include robot.html name=robot.name %}
+{% endfor %}
+
+<hr>
+
+<h1>Alumni</h1>
+<p>These robots were used by Team Hector in the past but have since retired.</p>
+
+{% for robot in alumniRobots %}
+  {% include robot.html name=robot.name %}
+{% endfor %}
