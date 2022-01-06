@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Open Source"
+permalink: /open-source
+---
+{% assign projects = site.opensource | sort:"order" %}
+<div class="open-source">
+  {% for project in projects reversed %}
+    {% include opensource-project.html name=project.name %}
+  {% endfor %}
+</div>
