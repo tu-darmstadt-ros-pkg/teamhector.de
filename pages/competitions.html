@@ -1,0 +1,61 @@
+---
+layout: blank
+title: "Competitions"
+permalink: /competitions
+---
+{% assign competitions = site.competitions | reverse %}
+<div class="content">
+  {% assign competition = competitions[0] %}
+  <div id="selected-competition">
+    <img src="{{ site.url }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
+    <h2 id="competition-name">{{ competition.name }}</h2>
+    <description id="competition-description">
+    {{ competition.content | markdownify }}
+    </description>
+  </div>
+</div>
+<div class="sidebar">
+  <h5>Past Events</h5>
+
+  {% for competition in competitions limit: 3 %}
+  <div class="image-tile" onclick="showCompetition('{{ competition.name | slugify }}')">
+    <img src="{{ site.url }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
+    <span class="image-title">{{ competition.name }}</span>
+  </div>
+  {% endfor %}
+
+  <div style="text-align: left;">
+    {% for competition in competitions offset: 3 %}
+    <a href="#{{ competition.name | slugify }}" onclick="showCompetition('{{ competition.name | slugify }}')">
+      {{ competition.name }}
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<script lang="javascript">
+var competitions = {
+  {% for competition in competitions %}
+  "{{ competition.name | slugify }}": { name: "{{ competition.name | escape | strip_newlines }}",
+    description: `{{ competition.content }}`,
+    image: "{{ site.url }}/assets/images/competitions/{{ competition.image }}" },
+  {% endfor %}
+};
+
+function showCompetition(id) {
+  var competition = competitions[id]
+  if (!competition) return
+
+  var content = document.getElementById("selected-competition");
+  var image = content.getElementsByTagName("img")[0]
+  image.src = competition.image
+  image.title = competition.name
+  document.getElementById("competition-name").innerText = competition.name
+  document.getElementById("competition-description").innerHTML = competition.description
+  window.location.hash = id
+}
+
+if (window.location.hash !== "") {
+  showCompetition(window.location.hash.substr(1))
+}
+</script>

@@ -6,7 +6,7 @@ permalink: /join-us
 
 # Join Us
 
-Reach out to us at [teamhector@sim.tu-darmstadt.de](mailto:teamhector@sim.tu-darmstadt.de)
+Reach out to us at {% include email.html data="lRmL0RWY0NXbyFGZtUHdu0WazBkcvR3YlhWbhVGd" %}
 
 ## What we do
 
@@ -73,4 +73,4 @@ You can also add to the team by providing additional skills not traditionally se
 
 ## Interested?
 
-Send us a mail at [teamhector@sim.tu-darmstadt.de](mailto:teamhector@sim.tu-darmstadt.de) with a concise description of your skills and interests.
+Send us a mail at {% include email.html data="lRmL0RWY0NXbyFGZtUHdu0WazBkcvR3YlhWbhVGd" %} with a concise description of your skills and interests.

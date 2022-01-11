@@ -1,0 +1,18 @@
+<div class="card">
+  <img src="{{ site.url }}/assets/images/researchers/{{ include.image }}" class="researcher-picture"/>
+  <h3>{{ include.name }}, M.Sc.</h3>
+  <table class="researcher-profile">
+    <tr>
+      <td title="Office">&#127970;</td>
+      <td>{{ include.building }}<br/>Room {{ include.room }}</td>
+    </tr>
+    <tr>
+      <td title="E-Mail">&#128231;</td>
+      <td>{% include email.html data=include.email %}</td>
+    </tr>
+    <tr>
+      <td title="Research interests">&#129514;</td>
+      <td>{{ include.research }}</td>
+    </tr>
+  </table>
+</div>

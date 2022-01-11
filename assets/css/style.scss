@@ -114,6 +114,9 @@ img.plain {
   box-shadow: unset;
 }
 
+a.plain {
+  color: inherit;
+}
 
 table {
   margin: 10px 0;
@@ -176,8 +179,10 @@ table {
 
 #navigation_wrap {
   .inner {
+    display: flex;
     height: 3rem;
     background: #000000;
+    justify-content: space-between;
   }
   ul {
     display: flex;
@@ -189,6 +194,7 @@ table {
 
     a {
       display: flex;
+      height: 100%;
       align-items: center;
       padding: 0 1rem;
       text-decoration: none;
@@ -197,6 +203,25 @@ table {
 
     a:hover {
       background-color: #ffffff22;
+    }
+  }
+
+  ul.social-media-buttons {
+    img {
+      background: white;
+      filter: grayscale(100%);
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-shadow: none;
+    }
+
+    li a {
+      padding: 0 8px;
+    }
+
+    li:hover img {
+      filter: grayscale(0);
     }
   }
 }
@@ -226,9 +251,16 @@ table {
       background-color: #eee;
       text-align: center;
 
-      img {
+      img.logo {
         margin: 5px 10px;
         padding: 0;
+      }
+
+      a {
+        font-size: 1rem;
+        font-weight: bold;
+        color: initial;
+        text-decoration: none;
       }
     }
   }
@@ -241,6 +273,7 @@ table {
   .inner {
     padding: 10px;
     background: #000000;
+    font-size: 0.8rem;
 
     a {
       text-decoration: none;
@@ -261,7 +294,7 @@ table {
 .researchers {
   margin: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 
   > .card {
@@ -286,6 +319,30 @@ table {
   margin: 0;
   border: none;
   border-radius: 50%;
+}
+
+// COMPETITIONS
+.image-tile {
+  position: relative;
+  cursor: pointer;
+  
+  .image-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #000000aa;
+    padding: 4px 0 0;
+    color: #ffffff;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -341,14 +398,14 @@ table {
   }
 
   .researchers {
-    > .card:nth-of-type(1) {
-      grid-row: 1;
-      grid-column: 2;
-    }
+    // > .card:nth-of-type(1) {
+    //   grid-row: 1;
+    //   grid-column: 2;
+    // }
     
-    > .card:nth-of-type(n+2) {
-      grid-row: 2;
-    }
+    // > .card:nth-of-type(n+2) {
+    //   grid-row: 2;
+    // }
   }
 }
 

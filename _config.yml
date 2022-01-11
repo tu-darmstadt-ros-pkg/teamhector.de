@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Team Hector
-email: fabian@sim.tu-darmstadt.de
 description: >- # this means to ignore newlines until "baseurl:"
   Team Hector is a mixed team of students and PhD candidates at the
   Technical University of Darmstadt supporting human first responders in
@@ -30,8 +29,9 @@ url: "https://tu-darmstadt-ros-pkg.github.io/teamhector.de" # the base hostname 
 twitter_username: darmstadtrescue
 github_username:  tu-darmstadt-ros-pkg
 collections:
-  - robots
+  - competitions
   - opensource
+  - robots
 
 # Build settings
 theme: jekyll-theme-slate
