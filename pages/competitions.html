@@ -18,7 +18,7 @@ permalink: /competitions
   <h5>Past Events</h5>
 
   {% for competition in competitions limit: 3 %}
-  <div class="image-tile" onclick="showCompetition('{{ competition.name | slugify }}')">
+  <div class="image-tile" onclick="showCompetition('{{ competition.name | slugify }}', true)">
     <img src="{{ site.url }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
     <span class="image-title">{{ competition.name }}</span>
   </div>
@@ -26,7 +26,7 @@ permalink: /competitions
 
   <div style="text-align: left;">
     {% for competition in competitions offset: 3 %}
-    <a href="#{{ competition.name | slugify }}" onclick="showCompetition('{{ competition.name | slugify }}')">
+    <a href="#{{ competition.name | slugify }}" onclick="showCompetition('{{ competition.name | slugify }}', true)">
       {{ competition.name }}
     </a><br/>
     {% endfor %}
@@ -34,7 +34,7 @@ permalink: /competitions
 </div>
 
 <script lang="javascript">
-var competitions = {
+const competitions = {
   {% for competition in competitions %}
   "{{ competition.name | slugify }}": { name: "{{ competition.name | escape | strip_newlines }}",
     description: `{{ competition.content }}`,
@@ -42,17 +42,22 @@ var competitions = {
   {% endfor %}
 };
 
-function showCompetition(id) {
-  var competition = competitions[id]
+function showCompetition(id, scrollTo = false) {
+  let competition = competitions[id]
   if (!competition) return
 
-  var content = document.getElementById("selected-competition");
-  var image = content.getElementsByTagName("img")[0]
+  let content = document.getElementById("selected-competition")
+  let image = content.getElementsByTagName("img")[0]
   image.src = competition.image
   image.title = competition.name
   document.getElementById("competition-name").innerText = competition.name
   document.getElementById("competition-description").innerHTML = competition.description
   window.location.hash = id
+  if (scrollTo) {
+    image.onload = function () {
+      image.scrollIntoView({behavior: 'smooth'})
+    }
+  }
 }
 
 if (window.location.hash !== "") {

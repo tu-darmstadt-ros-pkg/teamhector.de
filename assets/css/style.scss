@@ -105,6 +105,7 @@ body {
 
 img {
   max-width: 100%;
+  scroll-margin-top: 2rem;
 }
 
 img.plain {
@@ -164,7 +165,8 @@ table {
   }
 
   .sim-logo {
-    margin-right: 2rem;
+    margin-right: 8%;
+    width: 48%;
   }
 
   .logo {
@@ -293,12 +295,10 @@ table {
 .robots-alumni {
   margin: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
 
   .card {
-    min-width: 240px;
-
     .card-header-image {
       object-fit: cover;
       object-position: top;
