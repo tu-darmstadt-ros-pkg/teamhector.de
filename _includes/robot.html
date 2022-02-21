@@ -28,6 +28,18 @@
       <td>Dimensions <span class="text-nobreak">(L x W x H)</span></td>
       <td>{{ robot.dimensions }}</td>
     </tr>
+    {% elsif robot.height %}
+    <tr>
+      <td>Height</td>
+      <td>{{ robot.height }}</td>
+    </tr>
+    {% endif %}
+
+    {% if robot.doF %}
+    <tr>
+      <td title="Degrees of Freedom">DoF</td>
+      <td>{{ robot.doF }}</td>
+    </tr>
     {% endif %}
 
     {% if robot.flipperDoF %}
@@ -41,6 +53,13 @@
     <tr>
       <td>Manipulator DoF</td>
       <td>{{ robot.manipulatorDoF }}</td>
+    </tr>
+    {% endif %}
+
+    {% if robot.locomotion %}
+    <tr>
+      <td>Locomotion</td>
+      <td>{{ robot.locomotion }}</td>
     </tr>
     {% endif %}
     
