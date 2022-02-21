@@ -14,15 +14,20 @@
    bundle exec jekyll serve
    ```
 
-
 # Adding content
+
+## Front page
+
+The front page can be modified by editing `index.md`.
 ## Competitions
+
 Add competitions in the `_competition` folder.
 Just copy one of the existing ones and change it accordingly.  
 The `date` key is just used for sorting and is not accurate for all competitions (but please keep it accurate as the start date of new competitions).  
 Add the image for the competition in `assets/images/competitions`.
 
 ## Open Source Projects
+
 Add the entry in the `_opensource` folder.
 The image has to be in `assets/images/opensource`.
 Supported keys:
