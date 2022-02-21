@@ -1,5 +1,5 @@
 
-1. Install jekyll
+1. [Install jekyll](https://jekyllrb.com/docs/installation/)
 2. (Optional) Update gems including bundle
    ```
    sudo gem update

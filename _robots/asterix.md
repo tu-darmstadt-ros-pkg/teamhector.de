@@ -6,6 +6,8 @@ speed: 1.1 m/s
 flipperDoF: 2 (Front and Back)
 manipulatorDoF: 6 (+ Gripper)
 lidar: VLP-16 (Rotating)
+cameras: 360° Camera, 4 RGB-D Cameras, 2 Thermal Cameras
+additionalSensors: IMU, GNSS, CO2
 
 active: true
 firstUsed: 2019
