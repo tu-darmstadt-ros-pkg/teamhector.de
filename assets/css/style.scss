@@ -283,7 +283,7 @@ table {
     background: #ffffff;
 
     .content {
-      padding: 20px;
+      padding: 8px;
       flex: 1 0 100%;
       box-sizing: border-box;
     }
@@ -357,9 +357,8 @@ table {
 
 // CONTACT
 .researchers {
-  margin: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
 
   > .card {
@@ -415,10 +414,28 @@ table {
     .inner {
       .content {
         flex-basis: 75%;
+        padding: 8px;
       }
       .sidebar {
         flex-basis: 25%;
       }
+    }
+  }
+
+  #navigation-toggle {
+    display: none;
+  }
+
+  #navigation_wrap {
+    position: initial;
+
+    .inner {
+      padding-top: 0;
+      flex-direction: row;
+    }
+
+    ul {
+      flex-direction: row;
     }
   }
 
@@ -463,33 +480,7 @@ table {
   }
 
   .researchers {
-    // > .card:nth-of-type(1) {
-    //   grid-row: 1;
-    //   grid-column: 2;
-    // }
-    
-    // > .card:nth-of-type(n+2) {
-    //   grid-row: 2;
-    // }
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #navigation-toggle {
-    display: none;
-  }
-
-  #navigation_wrap {
-    position: initial;
-
-    .inner {
-      padding-top: 0;
-      flex-direction: row;
-    }
-
-    ul {
-      flex-direction: row;
-    }
+    margin: 20px;
   }
 }
 
