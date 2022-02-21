@@ -8,8 +8,9 @@ layout: home
 # Team Hector
 
 Team Hector is a mixed team of students and PhD candidates at the Technical University of Darmstadt supporting human first responders in disasters by researching and developing intelligent search-and-rescue robots.
-Our rescue robots and algorithms are designed to be deployed in harsh and hazardous environments such as partially collapsed buildings. They support local responders by autonomously exploring unknown environments, performing manipulation tasks, creating 2D and 3D maps, and generating a situation overview with localized victims and hazard materials.
-We develop and evaluate our methods tightly coupled to actual first responders in research projects such as the German Center for Rescue Robotics and emergenCITY. 
+
+Our rescue robots and algorithms are designed to be deployed in harsh and hazardous environments such as partially collapsed buildings. They support local responders by autonomously exploring unknown environments, performing manipulation tasks, creating 2D and 3D maps, and generating a situation overview with localized victims and hazard materials.  
+We develop and evaluate our methods tightly coupled to actual first responders in research projects such as the German Center for Rescue Robotics and emergenCITY.  
 The robustness of our solutions is regularly and very successfully demonstrated in international robotics competitions such as the RoboCup Rescue League, EnRicH, World Robot Summit, and the DARPA Robotics Challenge.
 
 Team Hector emerged from the former world-champion robot soccer Team Darmstadt Dribblers and was started in 2009 as an interdisciplinary effort of researchers from TU Darmstadt's Computer Science and Mechanical Engineering Departments within the PhD program GRK 1362. Its current team members are PhD students from Computer Science and students of the bachelor and master programs in Autonomous Systems, Computer Science, Computational Engineering, Information Systems Technology, Mechanical Engineering, Mechatronics, and Electrical Engineering. 
