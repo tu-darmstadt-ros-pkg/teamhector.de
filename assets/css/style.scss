@@ -103,6 +103,16 @@ body {
   background: none !important;
 }
 
+.obfuscated {
+  background: #cccccc;
+  padding: 0.4rem 0.4rem;
+  border-radius: 0.2rem;
+
+  .obfuscated {
+    padding: 0;
+  }
+}
+
 img {
   max-width: 100%;
   scroll-margin-top: 2rem;
