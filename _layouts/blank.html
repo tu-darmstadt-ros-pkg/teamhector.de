@@ -17,10 +17,10 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <img class="th-logo logo" src="assets/th_logo.png"/>
+          <img class="th-logo logo" src="{{ site.url }}/assets/th_logo.png"/>
           <div class="right">
-            <img class="logo" src="assets/partner_logos/TU_Darmstadt_Logo_smaller.png"/>
-            <img class="logo sim-logo" width="150" src="assets/partner_logos/SIM-Logo-300x205.png"/>
+            <img class="logo" src="{{ site.url }}/assets/partner_logos/TU_Darmstadt_Logo_smaller.png"/>
+            <img class="logo sim-logo" width="150" src="{{ site.url }}/assets/partner_logos/SIM-Logo-300x205.png"/>
           </div>
         </header>
     </div>
@@ -53,9 +53,9 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        &copy; 2021-2022 Team Hector |
-        <a href="legal">Legal Notice</a> |
-        <a href="privacy">Privacy Policy</a> |
+        &copy; 2021-<script lang="javascript">document.write(new Date().getFullYear())</script> Team Hector |
+        <a href="{{ site.url }}/legal">Legal Notice</a> |
+        <a href="{{ site.url }}/privacy">Privacy Policy</a> |
         Source on <a href="{{ site.github.repository_url }}" target="_blank">GitHub</a> |
         Published with <a href="https://pages.github.com">GitHub Pages</a> |
         Designed by Stefan Fabian based on the <a href="https://github.com/pages-themes/slate">Slate Theme</a>

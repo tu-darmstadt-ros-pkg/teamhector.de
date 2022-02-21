@@ -29,9 +29,19 @@ url: "https://tu-darmstadt-ros-pkg.github.io/teamhector.de" # the base hostname 
 twitter_username: darmstadtrescue
 github_username:  tu-darmstadt-ros-pkg
 collections:
-  - competitions
-  - opensource
-  - robots
+  competitions:
+    output: false
+  opensource:
+    output: false
+  robots:
+    output: true
+    permalink: /robot/:name
+defaults:
+  - scope:
+      path: ""
+      type: "robots"
+    values:
+      layout: "robot"
 
 # Build settings
 theme: jekyll-theme-slate

@@ -2,6 +2,7 @@
 name: Idefix
 dimensions: 27cm x 28cm x 27cm
 #weight: ? kg
+locomotion: Wheels (Differential)
 speed: 0.27 m/s
 lidar: Hokuyo (Fixed)
 cameras: 360° Camera, RGB-D Camera

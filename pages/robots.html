@@ -17,6 +17,8 @@ permalink: /robots
 <h1>Alumni</h1>
 <p>These robots were used by Team Hector in the past but have since retired.</p>
 
-{% for robot in alumniRobots %}
-  {% include robot.html name=robot.name %}
+<div class="robots-alumni">
+{% for robot in alumniRobots reversed %}
+  {% include robot_alumni.html name=robot.name %}
 {% endfor %}
+</div>
