@@ -16,6 +16,8 @@
 
 # Adding content
 
+**General notice:** When adding images and other media content, keep the filesize in mind. Images should not be larger than 400kB.
+
 ## Front page
 
 The front page can be modified by editing `index.md`.
