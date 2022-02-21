@@ -8,6 +8,7 @@ manipulatorDoF: 6 (+ Gripper)
 lidar: VLP-16 (Rotating)
 cameras: 360° Camera, 4 RGB-D Cameras, 2 Thermal Cameras
 additionalSensors: IMU, GNSS, CO2
+order: 100
 
 active: true
 firstUsed: 2019

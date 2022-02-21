@@ -3,7 +3,7 @@ layout: page
 title: "Robots - Team Hector"
 permalink: /robots
 ---
-{% assign activeRobots = site.robots | where:"active","true" | sort: "firstUsed", "first" %}
+{% assign activeRobots = site.robots | where:"active","true" | sort: "order", "first" %}
 {% assign alumniRobots = site.robots | where:"active","false" | sort: "lastUsed", "last" %}
 
 <h1>Active Robots</h1>

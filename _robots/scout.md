@@ -6,6 +6,7 @@ speed: 1.5 m/s
 lidar: OS-0 (Fixed)
 cameras: Insta360 Pro 2 360° Camera, 3 RGB-D Cameras, Zoom Camera Thermal Camera
 additionalSensors: IMU, GNSS, Radar
+order: 80
 
 active: true
 firstUsed: 2021
