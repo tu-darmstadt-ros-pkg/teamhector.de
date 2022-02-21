@@ -13,3 +13,12 @@ function deobfuscate() {
 }
 
 document.body.addEventListener("mousemove", deobfuscate)
+
+function toggleNavigation() {
+  let navigation = document.getElementById("navigation_wrap")
+  if (navigation.classList.contains('open')) {
+    navigation.classList.remove('open')
+  } else {
+    navigation.classList.add('open')
+  }
+}
