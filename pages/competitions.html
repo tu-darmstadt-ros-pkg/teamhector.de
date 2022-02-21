@@ -28,7 +28,7 @@ permalink: /competitions
     {% for competition in competitions offset: 3 %}
     <a href="#{{ competition.name | slugify }}" onclick="showCompetition('{{ competition.name | slugify }}')">
       {{ competition.name }}
-    </a>
+    </a><br/>
     {% endfor %}
   </div>
 </div>
