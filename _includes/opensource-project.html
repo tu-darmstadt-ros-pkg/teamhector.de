@@ -9,7 +9,7 @@
 {% endif %}
 <div class="card">
   {% if project.image %}
-  <img src="{{ site.url }}/assets/images/opensource/{{ project.image }}" class="card-header-image"/>
+  <img src="{{ site.baseurl }}/assets/images/opensource/{{ project.image }}" class="card-header-image"/>
   {% endif %}
   <div class="card-content">
     <h3>{{ project.name }}</h3>
@@ -19,12 +19,12 @@
   <div class="card-footer">
     {% if project.roswiki %}
     <a href="{{ project.roswiki }}" title="View on ROS Wiki">
-      <img alt="ROS Logo" src="{{ site.url }}/assets/images/logos/ROS_Logo.png" width="80" class="plain d-block"/>
+      <img alt="ROS Logo" src="{{ site.baseurl }}/assets/images/logos/ROS_Logo.png" width="80" class="plain d-block"/>
     </a>
     {% endif %}
     {% if github %}
     <a href="{{ github }}" title="View on GitHub" class="github-info">
-      <img alt="GitHub Logo" src="{{ site.url }}/assets/images/logos/GitHub_Logo.png" class="plain"/>
+      <img alt="GitHub Logo" src="{{ site.baseurl }}/assets/images/logos/GitHub_Logo.png" class="plain"/>
       {% if project.githubUser %}
         {% if project.githubRepo %}
         <img alt="GitHub Repo's stars" src="https://img.shields.io/github/stars/{{project.githubUser}}/{{project.githubRepo}}?color=green" class="plain as-left">

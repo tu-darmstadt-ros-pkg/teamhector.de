@@ -7,7 +7,7 @@ permalink: /competitions
 <div class="content">
   {% assign competition = competitions[0] %}
   <div id="selected-competition">
-    <img src="{{ site.url }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
+    <img src="{{ site.baseurl }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
     <h2 id="competition-name">{{ competition.name }}</h2>
     <description id="competition-description">
     {{ competition.content | markdownify }}
@@ -19,7 +19,7 @@ permalink: /competitions
 
   {% for competition in competitions limit: 3 %}
   <div class="image-tile" onclick="showCompetition('{{ competition.name | slugify }}', true)">
-    <img src="{{ site.url }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
+    <img src="{{ site.baseurl }}/assets/images/competitions/{{ competition.image }}" title="{{ competition.name }}" class="plain"/>
     <span class="image-title">{{ competition.name }}</span>
   </div>
   {% endfor %}
@@ -38,7 +38,7 @@ const competitions = {
   {% for competition in competitions %}
   "{{ competition.name | slugify }}": { name: "{{ competition.name | escape | strip_newlines }}",
     description: `{{ competition.content }}`,
-    image: "{{ site.url }}/assets/images/competitions/{{ competition.image }}" },
+    image: "{{ site.baseurl }}/assets/images/competitions/{{ competition.image }}" },
   {% endfor %}
 };
 

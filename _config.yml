@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Technical University of Darmstadt supporting human first responders in
   disasters by researching and developing intelligent search-and-rescue
   robots.
-baseurl: "/teamhector.de/" # the subpath of your site, e.g. /blog
+baseurl: "/teamhector.de" # the subpath of your site, e.g. /blog
 url: "https://tu-darmstadt-ros-pkg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: darmstadtrescue
 github_username:  tu-darmstadt-ros-pkg

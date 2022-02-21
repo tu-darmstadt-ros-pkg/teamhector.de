@@ -85,7 +85,7 @@ urheberrechtlich geschützt.
 
 ### 4. Datenschutz
 
-Eine gesonderte Datenschutzvereinbarung finden sie unter [Privacy Policy]({{ site.url }}/privacy).
+Eine gesonderte Datenschutzvereinbarung finden sie unter [Privacy Policy]({{ site.baseurl }}/privacy).
 
 ### 5. Rechtswirksamkeit dieses Haftungsausschlusses
 

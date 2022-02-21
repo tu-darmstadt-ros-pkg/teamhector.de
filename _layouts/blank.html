@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="preload" href="{{ site.url }}/assets/js/script.js" as="script">
+    <link rel="preload" href="{{ site.baseurl }}/assets/js/script.js" as="script">
 
     {% seo %}
     {% include head-custom.html %}
@@ -17,10 +17,10 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <img class="th-logo logo" src="{{ site.url }}/assets/th_logo.png"/>
+          <img class="th-logo logo" src="{{ site.baseurl }}/assets/th_logo.png"/>
           <div class="right">
-            <img class="logo" src="{{ site.url }}/assets/partner_logos/TU_Darmstadt_Logo_smaller.png"/>
-            <img class="logo sim-logo" width="150" src="{{ site.url }}/assets/partner_logos/SIM-Logo-300x205.png"/>
+            <img class="logo" src="{{ site.baseurl }}/assets/partner_logos/TU_Darmstadt_Logo_smaller.png"/>
+            <img class="logo sim-logo" width="150" src="{{ site.baseurl }}/assets/partner_logos/SIM-Logo-300x205.png"/>
           </div>
         </header>
     </div>
@@ -28,17 +28,17 @@
     <div id="navigation_wrap" class="outer">
       <nav class="inner">
         <ul>
-          <a href="{{ site.url }}/"><li class="nav-element">Home</li></a>
-          <a href="{{ site.url }}/competitions"><li class="nav-element">Competitions</li></a>
-          <a href="{{ site.url }}/robots"><li class="nav-element">Robots</li></a>
-          <a href="{{ site.url }}/join-us"><li class="nav-element">Join Us</li></a>
-          <a href="{{ site.url }}/open-source"><li class="nav-element">Open Source</li></a>
-          <a href="{{ site.url }}/contact"><li class="nav-element">Contact</li></a>
+          <a href="{{ site.baseurl }}/"><li class="nav-element">Home</li></a>
+          <a href="{{ site.baseurl }}/competitions"><li class="nav-element">Competitions</li></a>
+          <a href="{{ site.baseurl }}/robots"><li class="nav-element">Robots</li></a>
+          <a href="{{ site.baseurl }}/join-us"><li class="nav-element">Join Us</li></a>
+          <a href="{{ site.baseurl }}/open-source"><li class="nav-element">Open Source</li></a>
+          <a href="{{ site.baseurl }}/contact"><li class="nav-element">Contact</li></a>
         </ul>
         <ul class="social-media-buttons">
-          <li><a title="Facebook" href="https://www.facebook.com/TeamHectorDarmstadt?fref=ts" target="_blank"><img src="{{ site.url }}/assets/images/logos/facebook_v2.png" alt="Facebook"></a></li>
-          <li><a title="Twitter" href="https://twitter.com/darmstadtrescue" target="_blank"><img src="{{ site.url }}/assets/images/logos/twitter_v2.png" alt="Twitter"></a></li>
-          <li><a title="Youtube" href="https://www.youtube.com/user/TeamHectorDarmstadt" target="_blank"><img src="{{ site.url }}/assets/images/logos/youtube.png" alt="Youtube"></a></li>
+          <li><a title="Facebook" href="https://www.facebook.com/TeamHectorDarmstadt?fref=ts" target="_blank"><img src="{{ site.baseurl }}/assets/images/logos/facebook_v2.png" alt="Facebook"></a></li>
+          <li><a title="Twitter" href="https://twitter.com/darmstadtrescue" target="_blank"><img src="{{ site.baseurl }}/assets/images/logos/twitter_v2.png" alt="Twitter"></a></li>
+          <li><a title="Youtube" href="https://www.youtube.com/user/TeamHectorDarmstadt" target="_blank"><img src="{{ site.baseurl }}/assets/images/logos/youtube.png" alt="Youtube"></a></li>
           </ul>
       </nav>
     </div>
@@ -54,14 +54,14 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         &copy; 2021-<script lang="javascript">document.write(new Date().getFullYear())</script> Team Hector |
-        <a href="{{ site.url }}/legal">Legal Notice</a> |
-        <a href="{{ site.url }}/privacy">Privacy Policy</a> |
+        <a href="{{ site.baseurl }}/legal">Legal Notice</a> |
+        <a href="{{ site.baseurl }}/privacy">Privacy Policy</a> |
         Source on <a href="{{ site.github.repository_url }}" target="_blank">GitHub</a> |
         Published with <a href="https://pages.github.com">GitHub Pages</a> |
         Designed by Stefan Fabian based on the <a href="https://github.com/pages-themes/slate">Slate Theme</a>
       </footer>
     </div>
 
-    <script src="{{ site.url }}/assets/js/script.js" lang="javascript"></script>
+    <script src="{{ site.baseurl }}/assets/js/script.js" lang="javascript"></script>
   </body>
 </html>

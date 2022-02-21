@@ -1,7 +1,7 @@
 {% assign robot = site.robots | find: "name", include.name %}
-<a href="{{ robot.url }}" class="plain">
+<a href="{{ robot.url | relative_url }}" class="plain">
   <div class="card">
-    <img src="{{ site.url }}/assets/images/robots/{{ robot.image }}" class="card-header-image"/>
+    <img src="{{ site.baseurl }}/assets/images/robots/{{ robot.image }}" class="card-header-image"/>
     <h3>
       {{ robot.name }}
       <span class="time-window">{{ robot.firstUsed }} - {{ robot.lastUsed }}</span>
