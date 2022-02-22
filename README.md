@@ -21,6 +21,7 @@
 ## Front page
 
 The front page can be modified by editing `index.md`.
+
 ## Competitions
 
 Add competitions in the `_competition` folder.
