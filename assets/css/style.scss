@@ -113,6 +113,10 @@ body {
   }
 }
 
+.white-bg {
+  background: white !important;
+}
+
 img {
   max-width: 100%;
   scroll-margin-top: 2rem;
@@ -258,21 +262,31 @@ table {
   ul.social-media-buttons {
     flex-direction: row;
     align-self: center;
-    img {
-      background: white;
-      filter: grayscale(100%);
-      margin: 0;
-      padding: 0;
-      border: 0;
-      box-shadow: none;
+
+    li {
+      a {
+        padding: 0 0.5rem;
+      }
+
+      img {
+        filter: grayscale(100%);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+      }
+
+      .non-hovered { display: block; }
+  
+      .hovered { display: none; }
     }
 
-    li a {
-      padding: 0 0.8rem;
-    }
+    li:hover {
+      img { filter: grayscale(0); }
 
-    li:hover img {
-      filter: grayscale(0);
+      .non-hovered { display: none; }
+  
+      .hovered { display: block; }
     }
   }
 }
