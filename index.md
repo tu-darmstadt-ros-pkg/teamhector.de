@@ -22,6 +22,7 @@ Team Hector is always looking for new members. If you are interested in working 
 
 Some of the team's achievements are:
 
+* 2023: First place, Best in Class Autonomy and Best in Class Mobility Award of the RoboCup Rescue German Open
 * 2022: 4th place at the [AIRA Challenge](https://www.aira-challenge.com/)
 * 2022: 3rd place and Best in Class Exploration Award of the RoboCup World Championship in Bangkok
 * 2022: First place and Best in Class Autonomy Award of the RoboCup Rescue German Open
