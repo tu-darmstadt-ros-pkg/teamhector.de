@@ -1,7 +1,7 @@
 ---
 name: Enrich 2023
 image: 2023_enrich.jpg
-date: 2023-11-06
+date: 2023-06-11
 competition: Enrich
 ---
 
