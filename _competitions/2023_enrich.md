@@ -11,7 +11,7 @@ Challenges included sections that were dimly lit or with no illumination at all,
 
 We successfully mapped the entire accessible area and, for the first time, autonomously created a 3D map of the radioactivity with a new approach based on Gaussian Processes and won the award for best radioactivity map for the fourth time.
 Another highlight was a film crew from Galileo that followed us for two days.
-You can view the resulting clip in German [here](https://www.galileo.tv/video/tschuess-atomkraft-so-funktioniert-der-akw-rueckbau/) starting from 04:50.
+You can view the resulting clip in German [here](https://youtu.be/sCeiO03buJE?si=FgDffet-ogYmp5rI&t=290) starting from 04:50.
 
 **PhD Students:**  Frederik Bark, Kevin Daun, Stefan Fabian
 
