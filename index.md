@@ -22,6 +22,7 @@ Team Hector is always looking for new members. If you are interested in working 
 
 Some of the team's achievements are:
 
+* 2024: Best in Class Autonomy and Best Team Description Paper of the RoboCup Rescue World Championship in Eindhoven
 * 2024: First place, Best in Class Autonomy and Best in Class Dexterity Award of the RoboCup Rescue German Open
 * 2023: 2nd place, Best in Class Autonomy, Technology Challenge Award and Best Team Description Paper of the RoboCup Rescue World Championship in Bordeaux
 * 2023: A film team for Galileo followed us for two days at [ENRICH](https://enrich.european-robotics.eu/) where we won the award for Best Radioactivity Map. You can see the clip [here](https://youtu.be/sCeiO03buJE?si=FgDffet-ogYmp5rI&t=290).
