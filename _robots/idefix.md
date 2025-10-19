@@ -8,7 +8,7 @@ lidar: Hokuyo (Fixed)
 cameras: 360° Camera, RGB-D Camera
 order: 70
 
-active: true
+active: false
 firstUsed: 2020
 image: idefix.jpg
 ---

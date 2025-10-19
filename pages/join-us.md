@@ -8,6 +8,8 @@ permalink: /join-us
 
 Reach out to us at {% include email.html data="lRmL0RWY0NXbyFGZtUHdu0WazBkcvR3YlhWbhVGd" %}
 
+We also offer beginner courses for ROS2 and our software stack fridays 2PM (14:00 Uhr) at our lab (Robotics Lab, altes Hauptgebäude).
+
 ## What we do
 
 Team Hector develops robot hardware and highly portable open-source software for ground and aerial vehicles with various applications in mind, such as urban search and rescue and remote inspection of industrial sites.
