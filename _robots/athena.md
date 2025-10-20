@@ -2,7 +2,7 @@
 name: Athena
 dimensions: 70cm x 50cm
 weight: 50 kg
-speed: 1.1 m/s # TODO
+speed: 1.5 m/s
 flipperDoF: 4 (Each independently)
 manipulatorDoF: 7 (+ Gripper)
 lidar: 2 Livox Mid-360 (Fixed)
