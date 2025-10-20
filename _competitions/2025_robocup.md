@@ -1,6 +1,6 @@
 ---
 name: RoboCup 2025 Salvador (Brazil)
-image: 2024_robocup.jpg
+image: 2025_robocup.png
 date: 2025-07-15
 competition: RoboCup World Championship
 ---

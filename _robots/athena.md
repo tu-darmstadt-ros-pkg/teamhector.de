@@ -1,6 +1,6 @@
 ---
 name: Athena
-dimensions: 72cm x 52cm x 69cm # TODO
+dimensions: 70cm x 50cm
 weight: 50 kg
 speed: 1.1 m/s # TODO
 flipperDoF: 4 (Each independently)
