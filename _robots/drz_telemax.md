@@ -23,3 +23,5 @@ Standing on its flippers the robot can reach a height of 2.5 m. Thereby, enablin
 The tracked platform carries a modular autonomy box developed by Team Hector equipped with a continuously rotating lidar to create 3D point clouds, an omnidirectional camera and a RGBD-camera.
 
 The robot was successfully deployed during [Enrich 2019](https://www.youtube.com/watch?v=pCGhB3tU9cQ), exploring a nuclear power plant, locating radiation sources and saving a missing worker. The combination of high mobility, various sensing capabilities and advanced algorithms enabled [Team Hector to win the mapping award](https://www.informatik.tu-darmstadt.de/fb20/ueber_uns_details_167424.en.jsp).
+
+DRZ Telemax also was deployed to multiple real missions in cooperation with the DRZ.

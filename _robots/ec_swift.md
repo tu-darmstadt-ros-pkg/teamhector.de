@@ -4,8 +4,8 @@ dimensions: 63cm x 55cm x 30cm
 weight: 30 kg
 speed: 3 m/s
 lidar: 2 Livox Mid-360 (Fixed)
-cameras: 2 RGB-D Cameras, 3 Thermal Cameras
-additionalSensors: IMU
+cameras: 3 RGB-D Cameras, 3 Thermal Cameras
+additionalSensors: IMU, GNSS
 order: 110
 
 active: true

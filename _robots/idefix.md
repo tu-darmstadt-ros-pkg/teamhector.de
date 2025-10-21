@@ -9,7 +9,8 @@ cameras: 360° Camera, RGB-D Camera
 order: 70
 
 active: false
-firstUsed: 2020
+firstUsed: 2019
+lastUsed: 2020
 image: idefix.jpg
 ---
 Idefix was designed and built as a student project serving as  "little brother" of Asterix.

@@ -7,7 +7,7 @@ flipperDoF: 4 (Each independently)
 manipulatorDoF: 7 (+ Gripper)
 lidar: 2 Livox Mid-360 (Fixed)
 cameras: 2 240° Cameras, 3 RGB-D Cameras, Thermal Camera
-additionalSensors: IMU
+additionalSensors: IMU, Force/Torque Sensor (Endeffector)
 order: 120
 
 active: true
@@ -20,4 +20,4 @@ This robot combines good sensor coverage with high mobility and manipulation cap
 It is equipped with four flippers that can be controlled independently to clime various obstacles and stairs. This additionally also supported by a chain belts that covert the whole body of the robot.
 Its compactly foldable 7-DOF arm with under-actuated gripper can perform all manipulation tasks relevant for rescue operations such as closing valves or opening doors.
 
-Thanks to its versatile capabilities, Athena is used for research of autonomous assistance functions for urban search and rescue robots. Additionally, Athena is sucessfully deployed in the Robocup Rescue League as well as the EnRich competition.
+Thanks to its versatile capabilities, Athena is used for research of autonomous assistance functions for urban search and rescue robots. Additionally, Athena is sucessfully deployed in the Robocup Rescue League.
