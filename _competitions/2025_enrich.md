@@ -1,6 +1,6 @@
 ---
 name: ENRICH 2025
-image: 2024_robocup.jpg
+image: 2025_enrich.JPG
 date: 2025-06-30
 competition: ENRICH
 ---
