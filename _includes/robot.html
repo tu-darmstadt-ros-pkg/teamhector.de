@@ -35,6 +35,13 @@
     </tr>
     {% endif %}
 
+    {% if robot.speed %}
+    <tr>
+      <td>Speed</td>
+      <td>{{ robot.speed }}</td>
+    </tr>
+    {% endif %}
+
     {% if robot.doF %}
     <tr>
       <td title="Degrees of Freedom">DoF</td>

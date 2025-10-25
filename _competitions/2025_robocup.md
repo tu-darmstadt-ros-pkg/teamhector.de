@@ -4,10 +4,10 @@ image: 2025_robocup.png
 date: 2025-07-15
 competition: RoboCup World Championship
 ---
-At the RoboCup Rescue World Championship 2025 in Salvador (Brazil) our team sucessfully competed against a strong competition of 9 international teams.
+At the RoboCup Rescue World Championship 2025 in Salvador, Brazil, our team successfully competed against a strong field of nine international teams.
+This year’s competition introduced updated versions of previously used arenas with a significantly higher level of difficulty. 
 
-This year's competition featured new versions of previously used arenas with higher degree of difficulty.
-Additional overhauls of our recently developed Athena robot and further progess in the ROS2 conversion of our software stack enabled us to get much better results than in the German Open despite facing harder challenges.
+Thanks to major upgrades to our Athena robot and continued progress in migrating our software stack to ROS 2, we achieved better results than at the previous German Open, despite more demanding challenges.
 
 **PhD Students:**  Aljoscha Schmidt, Stefan Fabian
 

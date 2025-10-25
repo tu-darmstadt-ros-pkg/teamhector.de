@@ -12,9 +12,9 @@ active: true
 firstUsed: 2024
 image: ec_swift.png
 ---
-The emergenCITY Swift is used for the research of autonomous assistance functions for urban search and rescue robots as part of the [emergenCITY research center](https://www.emergencity.de/).
-To enable fast exploration in urban environments, the base platform is equipped with rubber wheels. Its small frame and indepently controlled wheels, which allow turning on the spot, facilitate deployment in constraint areas.
+The emergenCITY Swift is used for research on autonomous assistance functions for urban search and rescue robots as part of the [emergenCITY research center](https://www.emergencity.de/).
+Designed for fast exploration in urban environments, it features a compact base platform with rubber wheels and independently driven motors, allowing agile movement and turning on the spot in confined areas.
 
-On the small-sized wheeled base, the emergenCITY Swift carries a autonomy box developed by Team Hector equipped with a fixed  2 lidars to create 3D point clouds and two RGB-D cameras with overlapping fields of view. It additionaly features 3 thermal camers in the front, left and right to enable victim search in its sorroundings.
+Mounted on the small wheeled base, the autonomy box developed by Team Hector integrates two LiDARs for 3D mapping, two RGB-D cameras with overlapping fields of view, and three thermal cameras (front, left, right) for victim detection.
 
-The robot was successfully deployed during Enrich 2025, exploring a nuclear power plant and locating radiation sources. The combination of high mobility, various sensing capabilities, and advanced algorithms enables state-of-the-art research of mapping & exploration approaches.
+The robot was successfully deployed during ENRICH 2025, where it explored a nuclear power plant and located radiation sources.

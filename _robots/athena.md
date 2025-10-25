@@ -14,10 +14,10 @@ active: true
 firstUsed: 2025
 image: Athena.png
 ---
-Athena is a highly-mobile chained rescue robot platform developed by a joint effort of Team Hector.
-It is designed for autonomous exploration and mapping in challenging terrain.
-This robot combines good sensor coverage with high mobility and manipulation capabilities.
-It is equipped with four flippers that can be controlled independently to clime various obstacles and stairs. This additionally also supported by a chain belts that covert the whole body of the robot.
-Its compactly foldable 7-DOF arm with under-actuated gripper can perform all manipulation tasks relevant for rescue operations such as closing valves or opening doors.
+Athena is a highly mobile tracked rescue robot developed by Team Hector for autonomous exploration and manipulation in complex terrain.
 
-Thanks to its versatile capabilities, Athena is used for research of autonomous assistance functions for urban search and rescue robots. Additionally, Athena is sucessfully deployed in the Robocup Rescue League.
+With four independently actuated flippers and a full-body crawler design, it achieves superior mobility on rough terrain compared to its predecessor Asterix.
+Its compact 7-DoF manipulator combines long reach with high payload capacity, lifting up to 7 kg close to the base and 2.9 kg at full extension.
+A force–torque sensor at the end-effector enables research on compliant and autonomous manipulation.
+
+Athena was deployed for the first time in 2025, competing successfully at both the RoboCup German Open and the RoboCup World Championship in Salvador, Brazil.
