@@ -2,7 +2,7 @@
 name: RoboCup 2024 Eindhoven
 image: 2024_robocup.jpg
 date: 2024-07-21
-competition: RoboCup German Open
+competition: RoboCup World Championship
 ---
 At the RoboCup Rescue World Championship 2024 in Eindhoven our team achieved the 5th place overall against a strong competition of 19 international teams. Additionally, we were awarded the *Best in Class Autonomy* award for the most autonomously scored points as well as the *Best Team Description Paper* award, acknowleding our efforts in sharing knowledge with the community.
 

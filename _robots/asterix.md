@@ -10,8 +10,9 @@ cameras: 360° Camera, 4 RGB-D Cameras, 2 Thermal Cameras
 additionalSensors: IMU, GNSS, CO2
 order: 100
 
-active: true
+active: false
 firstUsed: 2019
+lastUsed: 2024
 image: asterix.jpg
 ---
 Asterix is a highly-mobile rescue robot platform developed in a student project.
