@@ -8,7 +8,7 @@ permalink: /join-us
 We’re currently running introductory sessions on ROS 2 and our software stack to help new members get started.
 If robotics excites you and our profile sounds like you, come to one of our onboarding sessions to meet us in person.
 
-The sessions take place on Tuesdays at 4PM (16:00 Uhr) and on Fridays at 2PM (14:00 Uhr) in our lab (SIM Labor, S1|03, Raum 014 (AHG), Altes Hauptgebäude). Feel free to drop by at either one.
+The sessions take place on Tuesdays at 4PM (16:00 Uhr) and on Fridays at 2PM (14:00 Uhr) in our lab (SIM Labor, S103, Raum 014 (AHG), Altes Hauptgebäude). Feel free to drop by at either one.
 
 ## What we do
 
