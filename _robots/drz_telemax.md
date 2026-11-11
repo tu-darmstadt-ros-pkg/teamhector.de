@@ -10,8 +10,9 @@ cameras: 360° Camera, 2 RGB-D Cameras, Wide-Angle Camera
 additionalSensors: IMU, GNSS
 order: 90
 
-active: true
+active: false
 firstUsed: 2018
+lastUsed: 2026
 image: drz_telemax.jpg
 ---
 The Telemax Hybrid by Telerob is used for research of autonomous assistance functions for urban search and rescue robots as part of the [German Center for Rescue Robotics](https://rettungsrobotik.de/).
