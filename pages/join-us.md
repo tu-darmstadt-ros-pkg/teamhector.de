@@ -3,12 +3,15 @@ layout: page
 title: "Join Team Hector"
 permalink: /join-us
 ---
-### Hector Onboarding Sessions (currently offered)
+## Hector Onboarding Sessions
 
-We’re currently running introductory sessions on ROS 2 and our software stack to help new members get started.
-If robotics excites you and our profile sounds like you, come to one of our onboarding sessions to meet us in person.
+We are currently running introductory sessions on ROS 2 and our software stack to help new members get started.
+If robotics excites you and you match our profile, come to one of our onboarding sessions to meet us in person.
 
-The sessions take place on Thursdays at 4PM (16:00 Uhr) in our lab (SIM Labor, S103, Raum 014 (AHG), Altes Hauptgebäude). Feel free to drop by.
+The sessions take place on Thursdays at 4PM (16:00 Uhr) in our lab (SIM Labor, S103, Raum 014 (AHG), Altes Hauptgebäude). 
+Just let us know via mail to {% include email.html data="lRmL0RWY0NXbyFGZtUHdu0WazBkcvR3YlhWbhVGd" %} beforehand that you will be joining the onboarding session.
+
+You can find the exterior entry here https://maps.app.goo.gl/EUvpReB3ArkubPxx9, which is usually easier to find.
 
 ## What we do
 
@@ -53,5 +56,5 @@ Expertise in software development, electronics, or mechanical design is particul
 ## Interested?
 
 Send us a mail at {% include email.html data="lRmL0RWY0NXbyFGZtUHdu0WazBkcvR3YlhWbhVGd" %} with a short note about your skills and interests,
-or stop by one of our onboarding sessions to say hi and learn more.
+and stop by one of our onboarding sessions to learn more.
 
