@@ -12,7 +12,7 @@ order: 120
 
 active: true
 firstUsed: 2025
-image: Athena.png
+image: Athena.jpg
 ---
 Athena is a highly mobile tracked rescue robot developed by Team Hector for autonomous exploration and manipulation in complex terrain.
 
